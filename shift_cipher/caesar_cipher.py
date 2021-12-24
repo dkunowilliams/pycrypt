@@ -8,12 +8,12 @@ class CaesarCipher():
         Parameters
         ----------
         cipherText : str
-                    String which frequencies are calculated from.
+                     String which frequencies are calculated from.
 
         Returns
         -------
         cipherFreqs : list
-                    Frequencies correlated to each letter. Arranged such that a=0, b=1, ...
+                      Frequencies correlated to each letter. Arranged such that a=0, b=1, ...
         """
         cipherFreqs = list()
         for i in range(0,26):
@@ -41,7 +41,7 @@ class CaesarCipher():
         Parameters
         ----------
         cipherFreqs : list
-                    Frequency of each letter in the string.
+                      Frequency of each letter in the string.
 
         shift : int
                 Shift to calculate a score for.
@@ -69,7 +69,7 @@ class CaesarCipher():
         Parameters
         ----------
         cipherFreqs : list
-                    Frequency of each letter in the string.
+                      Frequency of each letter in the string.
 
         Returns
         -------
@@ -106,7 +106,7 @@ class CaesarCipher():
         Returns
         -------
         cipherText : str
-                    Encrypted string.
+                     Encrypted string.
         """
         cipherText = ''
         for char in plainText:
@@ -125,7 +125,7 @@ class CaesarCipher():
         Parameters
         ----------
         cipherText : str
-                    Encrypted string.
+                     Encrypted string.
 
         shift : int
                 Amount plain text was shifted by to get cipher text.
@@ -152,7 +152,7 @@ class CaesarCipher():
         Parameters
         ----------
         cipherText : str
-                    Encrypted string.
+                     Encrypted string.
         
         Returns
         -------
